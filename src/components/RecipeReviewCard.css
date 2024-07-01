@@ -1,0 +1,24 @@
+
+.container {
+    display: flex; /* Arrange cards horizontally */
+    flex-wrap: wrap; /* Wrap cards to next line if needed */
+    gap: 1rem; /* Spacing between cards */
+    
+  }
+  
+  .productcard {
+    margin-bottom: 2rem; /* Space between cards vertically */
+    margin-top: 15px;
+ 
+    margin-left: 15px;
+    
+  }
+  .productcard:hover{
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.676);
+  
+  }
+  .but:hover{
+        font-size: 20px; 
+        transition: 1s;
+  }
+  
